@@ -1,0 +1,79 @@
+h1 {
+    color: rgb(173, 171, 171);
+}
+
+/* calling class example  */
+.image-container {
+    width: 500px;
+}
+/* Calling id */
+#link {
+    color: rgba(30, 163, 41, 0.973);
+    font-weight:700;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.main-container .main-title {
+    font-size: 70px;
+    text-align: left;
+}
+
+.main-container p {
+    color: aqua;
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.main-container {
+    background-color: aliceblue;
+    margin: 40px 20px 0px 30px;
+    /* top left bottom right */
+    /* margin-top:
+    margin-bottom:
+    margin-left:
+    margin-right: */
+
+    padding: 50px 20px 0px 30px;
+    /* padding-top: ;
+    padding-left: ;
+    padding-bottom: ;
+    padding-right: ; */
+    position: static;
+    /* top: 30;
+    left: 40px; */
+    display: block;
+    border: solid 3px orange;
+}
+
+body {
+    background-color: peachpuff;
+    /* background: url('../image/download.jpeg'); */
+}
+
+ol {
+    list-style-type: upper-alpha;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.imghome {
+    width: 100px
+}
+/* media quary */
+@media(min-width:300px) {
+    .imghome {
+        width: 50px
+    }
+    
+}
+
+@media(max-height:700px) {
+    .imghome {
+        width: 50px
+    }
+}
